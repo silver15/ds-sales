@@ -25,9 +25,9 @@ function Filter() {
       />
       <select className="filter-input">
         <option value="">Selecione um gênero</option>
-        <option value="MALE"></option>
-        <option value="FEMALE"></option>
-        <option value="OTHER"></option>
+        <option value="MALE">Masculino</option>
+        <option value="FEMALE">Feminino</option>
+        <option value="OTHER">Outros</option>
       </select>
     </div>
   );
