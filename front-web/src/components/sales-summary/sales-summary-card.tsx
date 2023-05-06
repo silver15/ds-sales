@@ -3,7 +3,7 @@ import { ReactComponent as AvatarIcon } from '../../assets/avatar-icon.svg';
 import './styles.css';
 
 type Props = {
-  value: number;
+  value: number | string;
   label: string;
   icon: React.ReactNode;
 };
